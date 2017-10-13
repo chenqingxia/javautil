@@ -1,13 +1,13 @@
-package com.nj.cqx.design.action.abstractfactory;
+package com.nj.cqx.design.create.abstractfactory;
 
 /**
  * 业务功能名称
  * Copyright (C), 2015-2016 中盈优创
- * AmdMainboard
+ * IntelMainboard
  * Author: chenqingxia
  * Date: 2017/10/12
  */
-public class AmdMainboard  implements Mainboard {
+public class IntelMainboard implements Mainboard {
     /**
      * CPU插槽的孔数
      */
@@ -16,12 +16,12 @@ public class AmdMainboard  implements Mainboard {
      * 构造方法，传入CPU插槽的孔数
      * @param cpuHoles
      */
-    public AmdMainboard(int cpuHoles){
+    public IntelMainboard(int cpuHoles){
         this.cpuHoles = cpuHoles;
     }
     @Override
     public void installCPU() {
         // TODO Auto-generated method stub
-        System.out.println("AMD主板的CPU插槽孔数是：" + cpuHoles);
+        System.out.println("Intel主板的CPU插槽孔数是：" + cpuHoles);
     }
 }

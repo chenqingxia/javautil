@@ -1,4 +1,4 @@
-package com.nj.cqx.design.action.abstractfactory;
+package com.nj.cqx.design.create.abstractfactory;
 
 /**
  * Cpu工厂类

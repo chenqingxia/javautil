@@ -1,4 +1,4 @@
-package com.nj.cqx.design.action.abstractfactory;
+package com.nj.cqx.design.create.abstractfactory;
 
 /**
  * 业务功能名称
