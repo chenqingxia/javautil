@@ -29,5 +29,10 @@ public class StreamReduce {
                 filter(x -> x.compareTo("Z") > 0).
                 reduce("", String::concat);
         System.out.println("concat="+concat);
+
+        String s1="a";
+        String s2="A";
+        System.out.println(s1.compareTo("A"));
+        System.out.println(s2.compareTo("A"));
     }
 }

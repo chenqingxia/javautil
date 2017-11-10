@@ -11,7 +11,8 @@ public class test3 {
     public static void main(String[] args) {
         //person::new 来获取Person类构造函数的引用
         PersonFactory<Person> personFactory=Person::new;
-        personFactory.Create("qingxia","chen");
+        Person p = personFactory.Create("qingxia","chen");
+        System.out.println(p.firstName);
 
     }
 }

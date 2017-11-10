@@ -13,6 +13,11 @@
             <artifactId>easy-rules-core</artifactId>
             <version>${easy.rule.version}</version>
         </dependency>
+        <dependency>
+            <groupId>dnsjava</groupId>
+            <artifactId>dnsjava</artifactId>
+            <version>${dnsjava.version}</version>
+        </dependency>
     </dependencies>
     <modelVersion>4.0.0</modelVersion>
 

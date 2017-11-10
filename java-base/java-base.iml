@@ -12,5 +12,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.jeasy:easy-rules-core:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: dnsjava:dnsjava:2.1.8" level="project" />
   </component>
 </module>
